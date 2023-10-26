@@ -29,10 +29,10 @@ END{
     printf "MI Multiple Vehicles Proportion: %f\n", MImulticar/MIacccnt;
     printf "MI Jan/Feb Proportion: %f\n", MIjanfebcnt/MIacccnt;
     print "State Code,# DD"
-    printf "1,%d\n", DD1;
-    printf "2,%d\n", DD2;
+    printf "26,%d\n", DD26;
     printf "4,%d\n", DD4;
     printf "5,%d\n", DD5;
-    printf "26,%d\n", DD26;
+    printf "1,%d\n", DD1;
+    printf "2,%d\n", DD2;
 }
 
