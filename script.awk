@@ -24,10 +24,10 @@ $1 == 4 {DD4+=$52}
 $1 == 5 {DD5+=$52}
 $1 == 26 {DD26+=$52}
 END{
-    printf "Multiple Vehicles Proportion: %f\n", multicar/acccnt;
-    printf "Jan/Feb Proportion: %f\n", janfebcnt/acccnt;
-    printf "MI Multiple Vehicles Proportion: %f\n", MImulticar/MIacccnt;
-    printf "MI Jan/Feb Proportion: %d\n", MIjanfebcnt/MIacccnt;
+    printf "Multiple Vehicles Proportion: %g\n", multicar/acccnt;
+    printf "Jan/Feb Proportion: %g\n", janfebcnt/acccnt;
+    printf "MI Multiple Vehicles Proportion: %g\n", MImulticar/MIacccnt;
+    printf "MI Jan/Feb Proportion: %g\n", MIjanfebcnt/MIacccnt;
     print "State Code,# DD"
     printf "26,%d\n", DD26;
     printf "4,%d\n", DD4;
